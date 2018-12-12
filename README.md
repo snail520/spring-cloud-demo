@@ -10,10 +10,10 @@
         
 # 配置详解
   * eureka
-     * __eureka.client.register-with-eureka: false__ #表示是否将自己注册到Eureka Server，默认为true，由于当前应用就是Eureka Server，故为false
-     * __eureka.client.fetch-registry: false__ #表示是否从Eureka Server获取注册信息，默认为true，因为是单点Eureka Server，不需要同步其它Eureka Server节点数据，故false
-     * eureka.client.service-url: defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-         #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka;多个地址使用，分隔
+     * __eureka.client.register-with-eureka: false__    #表示是否将自己注册到Eureka Server，默认为true，由于当前应用就是Eureka Server，故为false
+     * __eureka.client.fetch-registry: false__    #表示是否从Eureka Server获取注册信息，默认为true，因为是单点Eureka Server，不需要同步其它Eureka Server节点数据，故false
+     * __eureka.client.service-url: 
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/__  #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka;多个地址使用，分隔
                 
 # 应用架构
   * registry - 服务注册与发现
