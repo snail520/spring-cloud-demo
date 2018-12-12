@@ -1,6 +1,4 @@
 # spring-cloud-demo
-eureka/feign/ribbon
-参考网址：https://www.cnblogs.com/ztfjs/p/9230374.html
 
 # 技术栈
   * eureka - 服务发现组件
@@ -11,7 +9,5 @@ eureka/feign/ribbon
         5、Eureka Client会缓存服务注册表中的信息
      
                 
-
-# 一、新建一个maven工程，删除src及pom
-# 二、新建一个springboot工程，添加eureka依赖
-# 三、新建一个springboot工程，添加eureka discovery/eureka server/ribbon
+# 应用架构
+  * registry - 服务注册与发现
