@@ -32,7 +32,9 @@
      * __spring.cloud.inetutils.ignored-interfaces: - doctor0 -veth.*__      #表示忽略指定名称的网卡，如上表示忽略docker0网卡以及所有以veth开头的网卡。
      * __spring.cloud.inetutils.preferredNetworks: -192.168  -10.0__        #使用正则表达式，指定使用的网络地址
      * __spring.cloud.inetutils.useOnlySiteLocalInterfaces: true__        #强制使用站点本地地址。
-     
+  * Spring Cloud Config
+     * __spring.cloud.config.server.git.uri__        #配置Git仓库的地址
+     * __spring.cloud.config.server.git.search-paths__         #在当前git仓库路径下待搜索的文件夹
      
      
      
