@@ -10,5 +10,6 @@
 
     <modules>
         <module>registry</module>
+        <module>config</module>
     </modules>
 </project>
