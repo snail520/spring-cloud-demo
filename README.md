@@ -13,6 +13,8 @@
             过多客户端时(可能发生了网络分区故障)，那么这个节点就会进入自我保护模式。一旦进入该模式，Eureka Server就会保护服务注册表中的信息，不再删除服务注册表中的数据(也就是不会注销任何微服务)。
             当网络故障恢复后，该Eureka Server节点会自动退出自我保护模式。
   * Spring Cloud Config - 配置管理工具包，让你可以把配置放到远程服务器，集中化管理集群配置，目前支持本地存储、Git 以及 Subversion
+  * Feign - Feign是一种声明式、模板化的HTTP客户端,相当于micro-service-api
+       
         
 # 配置详解
   * eureka
@@ -42,3 +44,4 @@
                 
 # 应用架构
   * registry - 服务注册与发现
+  * user-micro-service 用户微服务
