@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://42.123.124.109:3306/axy
+    username: root
+    password: axy@2018
+logging:
+  level:
+    com.snail.user: debug
