@@ -1,11 +1,16 @@
 package com.snail.user.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.snail.user.entity.SysUser;
+import com.snail.user.utils.SuperMapper;
 
 /**
- * Created by gaoxiang on 18/12/25.
+ * <p>
+ * 用户表 Mapper 接口
+ * </p>
+ *
+ * @author snail
+ * @since 2018-12-25
  */
-public interface SysUserMapper extends BaseMapper<SysUser> {
+public interface SysUserMapper extends SuperMapper<SysUser> {
 
 }
