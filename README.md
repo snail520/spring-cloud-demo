@@ -15,7 +15,8 @@
   * Spring Cloud Config - 配置管理工具包，让你可以把配置放到远程服务器，集中化管理集群配置，目前支持本地存储、Git 以及 Subversion
   * Feign - Feign是一种声明式、模板化的HTTP客户端,相当于micro-service-api
   * Spring Cloud Stream - Spring 数据流操作开发包，封装了与 Redis、Rabbit、Kafka 等发送接收消息
-  * Spring Cloud OAuth2 - 基于 Spring Security 和 OAuth2 的安全工具包，为你的应用程序添加安全控制     
+  * Spring Cloud OAuth2 - 基于 Spring Security 和 OAuth2 的安全工具包，为你的应用程序添加安全控制
+  * Turbine - Turbine 是聚合服务器发送事件流数据的一个工具，用来监控集群下 hystrix 的 metrics 情况     
         
 # 配置详解
   * eureka
@@ -45,5 +46,6 @@
   * user-micro-service 用户微服务
   
 # 启动项目
-  1、启动registry
-  2、启动 config
+  * 1、启动 registry
+  * 2、启动 config
+  * 3、启动 monitor
