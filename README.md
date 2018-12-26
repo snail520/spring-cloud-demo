@@ -43,9 +43,13 @@
                 
 # 应用架构
   * registry - 服务注册与发现
+  * config - 外部配置
+  * monitor - 监控
+  * zipkin - 分布式跟踪
   * user-micro-service 用户微服务
   
 # 启动项目
   * 1、启动 registry
   * 2、启动 config
   * 3、启动 monitor
+  * 4、启动 zipkin   java -jar 
