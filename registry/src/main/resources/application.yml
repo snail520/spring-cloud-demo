@@ -4,8 +4,14 @@ server:
 eureka:
   instance:
     hostname: registry
+    prefer-ip-address: true
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:   #认证配置：http://user:password@${eureka.instance.hostname}:${server.port}/eureka/
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  security:
+    user:
+      name: user
+      password: ${REGISTRY_SERVER_PASSWORD:password}
