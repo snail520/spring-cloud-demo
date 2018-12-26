@@ -24,3 +24,5 @@ spring:
     user:
       name: user
       password: ${CONFIG_SERVER_PASSWORD:password}
+  rabbitmq:
+    host: rabbitmq
