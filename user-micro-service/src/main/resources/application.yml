@@ -6,9 +6,18 @@ spring:
     password: axy@2018
   application:
     name: user-micro-service
+
 logging:
   level:
     com.snail.user: debug
+
 server:
   port: 8082
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://registry:8761/eureka/
+  instance:
+    prefer-ip-address: true
 
