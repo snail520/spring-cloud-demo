@@ -13,4 +13,4 @@ spring:
         multiplier: 2
         max-attempts: 10
 server:
-  port: 8082
+  port: 8081

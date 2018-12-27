@@ -4,6 +4,11 @@ spring:
     url: jdbc:mysql://42.123.124.109:3306/axy
     username: root
     password: axy@2018
+  application:
+    name: user-micro-service
 logging:
   level:
     com.snail.user: debug
+server:
+  port: 8082
+
