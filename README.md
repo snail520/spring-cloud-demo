@@ -58,7 +58,7 @@
   * user-micro-service 用户微服务
   
 # 启动项目
-  * 1、启动 registry  8761  user/password
+  * 1、启动 registry  8761  eureka/eureka
   * 2、启动 config   8888
   * 3、启动 monitor  8040   admin/admin
   * 4、启动 zipkin   java -jar 
