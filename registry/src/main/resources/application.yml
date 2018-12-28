@@ -9,9 +9,11 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:   #认证配置：http://user:password@${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka:eureka@registry:8761/eureka
 spring:
   security:
+    basic:
+      enabled: true
     user:
-      name: user
-      password: ${REGISTRY_SERVER_PASSWORD:password}
+      name: eureka
+      password: eureka
